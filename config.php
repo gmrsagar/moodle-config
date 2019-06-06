@@ -35,7 +35,7 @@ $CFG->phpunit_dataroot = '/var/lib/testsitedata';
 $_SERVER['SERVER_PORT'] = 8080;
 $port = isset($_SERVER['SERVER_PORT']) ? $_SERVER['SERVER_PORT'] : 80;
 $port = ($port == 80) ? '' : ":{$port}";
-$CFG->wwwroot = "http://cquhe.localmain{$port}";
+$CFG->wwwroot = "http://localhost{$port}";
 $CFG->dataroot  = '/var/lib/sitedata';
 
 $CFG->admin     = 'admin';
